@@ -1,0 +1,27 @@
+
+psycopg2-binary  # Pour se connecter à Postgres
+
+# Pour manipuler les données
+pandas
+numpy
+
+# Pour la connexion à Postgres
+psycopg2-binary
+
+# Pour la détection d’anomalies / ML
+scikit-learn
+
+# Eventuellement statsmodels si vous faites du time series avancé
+# statsmodels
+
+# Pour les requêtes HTTP (vers un ERP par exemple)
+requests
+
+# Pour l'interface
+streamlit
+
+# MQTT si nécessaire
+paho-mqtt
+
+# Gestion de variables d'environnement (optionnel)
+python-dotenv
